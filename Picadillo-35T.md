@@ -13,17 +13,16 @@ A template to get you going with the Picadillo-35T's TFT screen looks like this:
 
 
     void setup() {
-	ts.initializeDevice();
+        ts.initializeDevice();
 
-	// These set the touch screen resolution.
-	ts.scaleX(4.3);
-	ts.scaleY(3.3);
-	ts.offsetY(5);
+        // These set the touch screen resolution.
+        ts.scaleX(4.3);
+        ts.scaleY(3.3);
+        ts.offsetY(5);
 
-	tft.initializeDevice();
-	tft.setBacklight(255);
-	tft.fillScreen(Color::Black);
-
+        tft.initializeDevice();
+        tft.setBacklight(255);
+        tft.fillScreen(Color::Black);
     }
 
     void loop() {
