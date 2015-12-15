@@ -1,3 +1,3 @@
 The chipKIT Bootloader is a UART (or UART over USB) based bootloader which loosely implements the [[stk500v2]] protocol used on the Arduino boards.  This means that it can be programmed using the AVRDUDE tool as well as the PIC32 specific [[pic32prog]].
 
-The chipKIT Bootloader is hosted on Github at https://github.com/chipKIT32/PIC32-avrdude-bootloader and binary images for most boards (except [[Digilent]]) are available from there. For Digilent boards the bootloaders are available for download on the individual product pages on their website.
+The chipKIT Bootloader is hosted on Github at [https://github.com/chipKIT32/PIC32-avrdude-bootloader](https://github.com/chipKIT32/PIC32-avrdude-bootloader) and binary images for most boards (except [[Digilent]]) are available from there. For Digilent boards the bootloaders are available for download on the individual product pages on their website.
