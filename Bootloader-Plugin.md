@@ -4,6 +4,6 @@ Not all devices have bootloaders available.
 
 The plugin uses the following configuration keys:
 
-    upload.bootloader=<key>::<key>::...
+    bootloader.upload=<key>::<key>::...
 
 This specifies the different `upload` subkeys that can be used for programming a bootloader through a certain hardware tool.  The filename for the bootloader is passed in the `${filename}` variable.
